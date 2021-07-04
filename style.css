@@ -2,7 +2,7 @@ body{
     font-family: 'Otomanopee One', sans-serif;
     margin: 0px;
 }
-section{
+.contanier{
     display: flex;
     margin-bottom: 120px;
 }
@@ -49,6 +49,39 @@ section{
     width: 90%;
 }
 #box-shadow2{
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 10px 10px 45px gray;
     margin-left: 40px;
+    border: 7px solid orangered;
+}
+.dream-bannar{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.no-exp{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.experinces-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-left{
+    border-image:linear-gradient(orange,red);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+#border-left1{
+    border-image:linear-gradient(blue,skyblue);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
