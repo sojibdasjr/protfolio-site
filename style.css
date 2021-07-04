@@ -24,7 +24,6 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     text-align: justify;
-    border: 5px solid blue;
     border-radius: 10px; 
 }
 .top-bannar{
@@ -51,12 +50,6 @@ body{
 #box-shadow2{
     box-shadow: 10px 10px 45px gray;
     margin-left: 40px;
-    border: 7px solid orangered;
-}
-.dream-bannar{
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
 }
 .no-exp{
     box-shadow: 10px 10px 40px gray;
